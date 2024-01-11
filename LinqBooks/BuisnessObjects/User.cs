@@ -8,6 +8,6 @@ namespace LinqBooks.BuisnessObjects
 {
     public class User
     {
-
+        public String Name { get; set; } = string.Empty;
     }
 }

@@ -8,8 +8,8 @@ namespace LinqBooks.BuisnessObjects
 {
     public class Subject
     {
-        public String Description { get; set; }
-        public String Name { get; set; }
+        public String Description { get; set; } = string.Empty;
+        public String Name { get; set; } = string.Empty;
 
         public override string ToString()
         {
